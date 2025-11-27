@@ -13,6 +13,7 @@ KERNEL_DIR=$(pwd)
 TOOLCHAIN_DIR=${KERNEL_DIR}/../toolchains
 CLANG_DIR=${TOOLCHAIN_DIR}/clang
 DATE=$(date +%Y%m%d-%H%M)
+export LTO=thin
 
 # Telegram Config
 # BOT_TOKEN=""
